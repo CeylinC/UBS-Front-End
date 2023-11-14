@@ -41,6 +41,9 @@
     padding: 0.5rem 0 0 1.5rem;
     font-size: 0.9rem;
 }
+.content{
+    padding: 100px 50px;
+}
 .footer{
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
