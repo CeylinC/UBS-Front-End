@@ -1,0 +1,107 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        background-color: rgb(229, 158, 92);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .wrapper .mt-5{
+        width: 100%;
+        padding: 200px;
+    }
+    .wrapper h1{
+        font-size: 2em;
+        color: black;
+        text-align: center;
+    }
+    .mb-3{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-bottom: 2px solid black;
+        margin: 30px 0;
+    }
+    .mb-3 label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1em;
+        color: black;
+        font-weight: 500;
+        pointer-events: none;
+        transition: .5s;
+    }
+    .mb-3 input:focus~label,
+    .mb-3 input:valid~label{
+        top: -5px; 
+    }
+    .mb-3 input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: black;
+        font-weight: 600;
+        padding: 0 35px 0 5px;
+    }
+    .mb-3 i{
+        position: absolute;
+        right: 8px;
+        font-size: 1.2em;
+        line-height: 57px;
+    }
+    
+    .mb-4{
+        margin: 35px 0px;
+    }
+    .btn{
+        width: 400px;
+        height: 45px;
+        background: rgb(225, 122, 32);
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .button {
+        width: 100%;
+        height: 25px;
+        background: rgb(241, 44, 14);
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #fff;
+        font-weight: 500;
+        margin: 15px 0 25px 0;
+    }
+    .choice {
+        display: flex; 
+        justify-content: space-between; 
+        gap: 5px;
+    }
+    .links{
+        padding-top: 3%;
+    }
+    .links a{
+        margin: 10px 0px;
+        font-size: 0.9em;
+        color: #8f8f8f;
+        text-decoration: beige;
+    }

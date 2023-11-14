@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./asset/css/giris.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form method="post" action="Add" class="mt-5 custom-backround" enctype="multipart/form-data">
+            <h1>UBS Giriş</h1>
+            <div class="mb-3">
+                <input type="text" id="ad" class="form-control" asp-for="Ad" required>
+                <label for="" class="form-label">Kullanıcı Adı</label>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="mb-3">
+                <input type="password" id="password" class="form-control" asp-for="Password" required> <!-- Şifre alanı olarak işaretlenmiş olması gerektiğini varsayıyorum -->
+                <label for="" class="form-label">Şifre</label>
+                <i class='bx bx-key'></i>
+            </div>
+            <div class="mb-4">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="" class="checkbox">Keep Me Signed in</label>
+            </div>
+            <button type="submit" class="btn">Giriş</button>
+            <div class="links">
+                <a href="#" target="_blank">Şifreni mi unuttun?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
