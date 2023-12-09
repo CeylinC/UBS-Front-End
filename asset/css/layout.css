@@ -43,6 +43,7 @@
 }
 .content{
     padding: 100px 50px;
+    min-height: 91vh;
 }
 .footer{
     background-color: var(--footer-bg-color);
