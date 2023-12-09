@@ -1,0 +1,6 @@
+.transkript.content h1{
+    color: var(--header-color);
+}
+.transkript.content .transkript-document{
+    min-height: 100vh;
+}
