@@ -1,0 +1,23 @@
+.page-title, .greeting-user{
+    color: var(--header-color);
+}
+.notices .notice{
+    background-color: #f1f8ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+.notices .notice .notice-info{
+    border-bottom: 1px solid #AED2FF;
+    margin-bottom: 10px;
+}
+.notices .notice .notice-date{
+    font-size: 0.8rem;
+    color: #5694df;
+}
+.notices .notice .notice-title{
+    font-size: 1.15rem;
+}
+.notices .notice .notice-description{
+    color: #080888;
+}
