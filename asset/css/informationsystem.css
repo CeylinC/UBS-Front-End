@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.semester-section {
+    margin: 20px 0;
+}
+
+.semester-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.course-info {
+    display: none;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-top: none;
+}
+
+.course-info table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.course-info table th,
+.course-info table td {
+    text-align: center;
+    padding: 10px;
+}
