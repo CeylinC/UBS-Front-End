@@ -1,0 +1,16 @@
+.accordion-button-row{
+    width: calc(100% - 30px);
+}
+.accordion-button-semester{
+    background-color: #AED2FF !important;
+}
+.accordion-lesson{
+    background-color: #E4F1FF !important;
+}
+.accordion-button:focus{
+    border: none;
+    outline: none;
+}
+.accordion-body .table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: #fafeff;
+}
