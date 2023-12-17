@@ -1,0 +1,34 @@
+.content{
+    overflow: hidden;
+}
+th[scope="col"]{
+    background-color: #4c9cff;
+    color: white;
+    text-align: center;
+}
+th[scope="col"] div{
+    width: 260px;
+}
+.row-lesson td{
+    padding: 0;
+    background-color: #E4F1FF;
+    width: calc(260p + 1rem);
+    height: calc(120px + 1rem);
+}
+.lesson{
+    border: 1px solid #4B56D2;
+    background-color: #7B66FF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+@media screen and (min-width: 1500px) {
+    #syllabus{
+        overflow-x: hidden;
+    }
+}
