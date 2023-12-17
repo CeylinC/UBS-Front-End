@@ -1,8 +1,8 @@
-ul {
+#ogrenciListesi ul {
   list-style-type: none;
   padding: 0;
 }
 
-li {
+#ogrenciListesi li {
   margin-bottom: 15px;
 }
